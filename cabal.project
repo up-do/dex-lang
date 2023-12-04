@@ -21,12 +21,6 @@ package unordered-containers { ghc-options: -fno-prof-auto -O2 }
 import: ./project-stackage/lts-18.23.config
 
 import: ./project-cabal/pkgs.config
-
 import: ./project-cabal/ghc-8.10.7/constraints.config
 import: ./project-cabal/ghc-8.10.7/deps-external.config
-import: ./project-cabal/ghc-8.10.7/deps-internal.config
-import: ./project-cabal/ghc-8.10.7/forks-external.config
-import: ./project-cabal/ghc-8.10.7/forks-internal.config
-
 build-info: True
-
