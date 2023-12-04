@@ -34,6 +34,4 @@
         store-core: -fno-prof-auto -O2
         store: -fno-prof-auto -O2
         unordered-containers: -fno-prof-auto -O2
-
-      ${resolver}
-      ''
+      ${resolver}''
