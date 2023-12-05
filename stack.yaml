@@ -22,35 +22,20 @@ ghc-options:
   store: -fno-prof-auto -O2
   unordered-containers: -fno-prof-auto -O2
 
-
-
 resolver: lts-18.23
 
-# We have 1 packages.
+# We have 1 package.
 packages:
   - ./.
 
-# We have 1 source packages listed in this order:
-#   * external 1
-#   * internal 0
-#   * external forks 0
-#   * internal forks 0
+# We have 1 external dependency source package.
 extra-deps:
-
   # Source Packages, external (3rd party).
   - git: https://github.com/llvm-hs/llvm-hs
     commit: 423220bffac4990d019fc088c46c5f25310d5a33
     subdirs:
       - llvm-hs
       - llvm-hs-pure
-
-  # Source Packages, internal to this organisation (private and public).
-
-  # Source Packages, external (3rd party) forks of other repositories.
-  # Can we help upstream?
-
-  # Source Packages, internal forks of other repositories.
-  # Can we upstream and unfork?
 
   # Package versions for published packages either not on Stackage or
   # not matching the version on Stackage for the resolver we use.
