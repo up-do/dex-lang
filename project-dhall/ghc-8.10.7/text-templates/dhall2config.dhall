@@ -20,6 +20,7 @@ in  \(stackage-resolver : Text) ->
 
       in  ''
           ${./cabal-snippet.dhall}
+
           ${project-dhall2config
               TYPES.Stackage.StackageLocal
               stackage-resolver

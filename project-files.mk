@@ -20,7 +20,7 @@ all: projects
 
 .DEFAULT_GOAL := all
 
-UPDO_VERSION ?= 7fa75f53441a5a4b858016744ec275a1e7b6a44a
+UPDO_VERSION ?= 60545b108b7a6a2f802ec7a161aa4b9eb7441baf
 UPDO_URL := https://github.com/cabalism/updo/archive/${UPDO_VERSION}.tar.gz
 
 updo/Makefile:

@@ -23,6 +23,7 @@ in  \(pkgs-done : List Text) ->
       in  ''
           ${./stack-snippet.dhall (None Text)}
           ${../../../updo/text-templates/dhall2stack.dhall
+              TYPES.Verbosity.Info
               stackage-resolver
               ( if    null Text pkgs-todo
                 then  TYPES.PkgSet.AllPkgs pkgs-done

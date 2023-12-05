@@ -17,5 +17,4 @@ package parser-combinators { ghc-options: -fno-prof-auto -O2 }
 package prettyprinter { ghc-options: -fno-prof-auto -O2 }
 package store-core { ghc-options: -fno-prof-auto -O2 }
 package store { ghc-options: -fno-prof-auto -O2 }
-package unordered-containers { ghc-options: -fno-prof-auto -O2 }
-''
+package unordered-containers { ghc-options: -fno-prof-auto -O2 }''
